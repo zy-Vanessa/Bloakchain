@@ -1,0 +1,50 @@
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "e10a6ccf57672c77ba11847572d9ad27a64cd37a7b3be01773b2036faf299317",
+    "addresses": [
+      "z9MKq5hx9Gb7TANm4vqPSCCZ57zCfj2a9E",
+      "mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB"
+    ],
+    "total": 40000,
+    "fees": 40000,
+    "size": 232,
+    "vsize": 232,
+    "preference": "high",
+    "relayed_by": "111.33.78.5",
+    "confirmed": "2023-09-27T14:43:17Z",
+    "received": "2023-09-27T14:25:53.587Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 3,
+    "confidence": 1,
+    "inputs": [
+        {
+        "prev_hash": "b1b8fd2f8abd87a36bc86a28d48aa3bf388e27de3b2e579c5937af53e7fd0c55",
+        "output_index": 0,
+        "script": "00483045022100bf77a8eb82c71b0fd0fb5d84b6d9e32528b3f7ae0d8bc8b30610475591147ab90220383ed795d5610a0756d755ab3c072b129fa150bc28e75d30c9a78c36500c553401483045022100b5204a6ceb8aca7c999e7820a10300d6bcb25bab78a66e979cb5105eb7afbc7d022064e1632369b80a2d6541037c492d171164ccf5b32c7a3c9ffab6664de2cd471e01",
+        "output_value": 80000,
+        "sequence": 4294967295,
+        "addresses": [
+            "z9MKq5hx9Gb7TANm4vqPSCCZ57zCfj2a9E"
+        ],
+        "script_type": "pay-to-multi-pubkey-hash",
+        "age": 2505427
+        }
+    ],
+    "outputs": [
+        {
+        "value": 40000,
+        "script": "76a9149f9a7abd600c0caa03983a77c8c3df8e062cb2fa88ac",
+        "addresses": [
+            "mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+        }
+    ]
+  }
+}
